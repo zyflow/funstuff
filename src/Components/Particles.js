@@ -4,7 +4,7 @@ export class Particles {
     this.ctx = ctx
     this.x = x
     this.y = y
-    this.size = 12;
+    this.size = 6;
     this.color = color
     this.hsl = hsl
     this.extraSize = extraSize

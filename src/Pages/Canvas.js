@@ -32,7 +32,7 @@ const Canvas = props => {
   const animate = () => {
     if (ctx === null) {return null}
     // ctx.clearRect(0, 0, 1000, 1000)
-    ctx.fillStyle = 'rgba(0,0,0,0.03)';
+    ctx.fillStyle = 'rgba(0,0,0,0.3)';
     ctx.fillRect(0,0,1000, 1000)
     handleParticles()
 
